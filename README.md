@@ -50,3 +50,18 @@ comparison group for the earlier ones.
 - *Exact definition of "on time" to be confirmed from TfGM documentation*
 
 ## Repository structure
+data/
+raw/ ← data exactly as collected, never edited
+processed/ ← cleaned data ready for analysis
+notebooks/ ← exploration and analysis, numbered in order
+src/ ← reusable Python code
+docs/
+decision_log.md ← every analytical decision and why I made it
+
+
+## Progress log
+- **Nov 2026:** Project defined, repository created
+
+## Tools
+Python · pandas · DuckDB · SQL · Streamlit · LLM-assisted text classification
+
