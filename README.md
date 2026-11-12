@@ -41,9 +41,16 @@ comparison group for the earlier ones.
 
 ## Hypotheses
 <!-- Written by me before looking at the data -->
-- H1:
-- H2:
-- H3:
+- H1: I believe franchising improved bus punctuality, because TfGM now controls timetables and can hold operators to performance targets. If true, each tranche’s punctuality will rise after its joining date, by more than in the same weeks a year earlier.
+It’s wrong if tranches that hadn’t joined yet improved by the same amount at the same time. That would mean something city wide caused it, not franchising.
+
+- H2: I believe T2 is less punctual than T1 because its operator has more cancelled or missing trips (staff or bus shortages).
+If true, T2 will show lower “operated km” than T1 in the same weeks, and punctuality will be worst in the weeks when operated km is lowest.
+It’s wrong if T2’s operated km is as high as T1’s. Then the buses are running, so the problem lies elsewhere (most likely the roads).
+
+- H3: I believe the timetable changes improved punctuality mainly by giving buses more scheduled time, not by making journeys faster.
+If true, punctuality jumps soon after 27 Oct 2024, and the new timetables show longer scheduled journey times than the old ones.
+It’s wrong if scheduled journey times stayed the same or got shorter and punctuality still improved. That would mean the buses really did get faster.
 
 ## Data sources
 - TfGM weekly Bee Network bus punctuality reports (tfgm.com)
@@ -57,7 +64,6 @@ notebooks/ ← exploration and analysis, numbered in order
 src/ ← reusable Python code
 docs/
 decision_log.md ← every analytical decision and why I made it
-
 
 ## Progress log
 - **Nov 2026:** Project defined, repository created
